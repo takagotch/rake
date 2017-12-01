@@ -1,0 +1,23 @@
+--
+- RAILS_ENV
+- RAILS_SERVE_STATIC_FILES
+- SECRET_KEY_BASE
+
+
+rails -T #history
+
+lib/tasks/.rake
+
+#
+export RAILS_ENV=production
+export RAILS_SERVE_STATIC_FILES=1
+rails secret > secret.key
+export SECRET_KEY_BASE=$(cat secret.key)
+rails assers:precompile
+rails db:setup #rails db:reset
+rails s
+curl http://localhost:8080
+ls -R
+
+
+
