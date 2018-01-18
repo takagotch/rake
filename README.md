@@ -1,4 +1,7 @@
 https://github.com/ruby/rake
+
+http://docs.seattlerb.org/rake/
+
 ---
 rails -T #history
 
