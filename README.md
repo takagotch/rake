@@ -1,6 +1,7 @@
 ### rake
 
 https://github.com/ruby/rake
+https://github.com/jimweirich death
 
 http://docs.seattlerb.org/rake/
 
